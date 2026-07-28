@@ -1,0 +1,86 @@
+<svg fill="none" width="700" height="210" viewBox="0 0 700 210" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #090d16; rx: 8px; }
+    .header-bar { fill: #1e293b; rx: 8px 8px 0 0; }
+    .dot-red { fill: #ef4444; }
+    .dot-yellow { fill: #f59e0b; }
+    .dot-green { fill: #10b981; }
+    .title { fill: #94a3b8; font-family: 'Fira Code', monospace; font-size: 11px; font-weight: 600; }
+    
+    .term-text {
+      font-family: 'Fira Code', 'Courier New', monospace;
+      font-size: 12px;
+      font-weight: 600;
+      fill: #22c55e;
+    }
+    
+    .accent { fill: #38bdf8; font-weight: 700; }
+    .label { fill: #f8fafc; font-weight: 700; }
+    .value { fill: #22c55e; }
+
+    .line {
+      opacity: 0;
+      animation: fadeIn 0.3s forwards;
+    }
+
+    .l1 { animation-delay: 0.1s; }
+    .l2 { animation-delay: 0.2s; }
+    .l3 { animation-delay: 0.3s; }
+    .l4 { animation-delay: 0.4s; }
+    .l5 { animation-delay: 0.5s; }
+    .l6 { animation-delay: 0.6s; }
+    .l7 { animation-delay: 0.7s; }
+    .l8 { animation-delay: 0.8s; }
+
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+
+    .cursor { animation: blink 1s infinite; }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    .penguin-glow { filter: drop-shadow(0px 0px 6px rgba(34, 197, 94, 0.4)); }
+  </style>
+
+  <!-- Terminal Window -->
+  <rect width="700" height="210" class="bg" stroke="#1e293b" stroke-width="1.5"/>
+  
+  <!-- Header Bar -->
+  <path d="M0 8C0 3.58172 3.58172 0 8 0H692C696.418 0 700 3.58172 700 8V26H0V8Z" class="header-bar"/>
+  <circle cx="18" cy="13" r="4.5" class="dot-red"/>
+  <circle cx="32" cy="13" r="4.5" class="dot-yellow"/>
+  <circle cx="46" cy="13" r="4.5" class="dot-green"/>
+  <text x="350" y="17" text-anchor="middle" class="title">Tnembull@node-01: ~$ fastfetch</text>
+
+  <!-- Vector Tux Mascot (Left Side) -->
+  <g transform="translate(25, 38)" class="penguin-glow">
+    <ellipse cx="55" cy="85" rx="45" ry="55" fill="#0f172a" stroke="#22c55e" stroke-width="2.5"/>
+    <path d="M22 130 Q 30 148 50 140 Q 35 126 30 122 Z" fill="#f59e0b"/>
+    <path d="M88 130 Q 80 148 60 140 Q 75 126 80 122 Z" fill="#f59e0b"/>
+    <ellipse cx="55" cy="95" rx="30" ry="38" fill="#f8fafc"/>
+    <path d="M10 80 Q -4 100 15 110 Q 18 92 16 80 Z" fill="#0f172a" stroke="#22c55e" stroke-width="1.5"/>
+    <path d="M100 80 Q 114 100 95 110 Q 92 92 94 80 Z" fill="#0f172a" stroke="#22c55e" stroke-width="1.5"/>
+    <circle cx="41" cy="62" r="9" fill="#ffffff"/>
+    <circle cx="69" cy="62" r="9" fill="#ffffff"/>
+    <circle cx="43" cy="62" r="4" fill="#090d16"/>
+    <circle cx="67" cy="62" r="4" fill="#090d16"/>
+    <polygon points="47,71 63,71 55,82" fill="#f59e0b"/>
+    <rect x="29" y="55" width="24" height="13" rx="2" fill="#090d16" stroke="#38bdf8" stroke-width="1.5" opacity="0.9"/>
+    <rect x="57" y="55" width="24" height="13" rx="2" fill="#090d16" stroke="#38bdf8" stroke-width="1.5" opacity="0.9"/>
+    <line x1="53" y1="61" x2="57" y2="61" stroke="#38bdf8" stroke-width="1.5"/>
+    <path d="M55 89 L47 108 L51 108 L55 98 L59 108 L63 108 Z" fill="#38bdf8"/>
+  </g>
+
+  <!-- System Info Lines (Right Side) -->
+  <g transform="translate(170, 42)">
+    <g class="term-text">
+      <text x="0" y="16" class="line l1 accent">Tnembull@node-01</text>
+      <text x="0" y="30" class="line l2" fill="#334155">-----------------------------------------------</text>
+      <text x="0" y="48" class="line l3"><tspan class="label">OS:</tspan> <tspan class="value">Arch Linux x86_64 / Debian GNU/Linux</tspan></text>
+      <text x="0" y="66" class="line l4"><tspan class="label">Kernel:</tspan> <tspan class="value">6.8.0-custom-sysadmin</tspan></text>
+      <text x="0" y="84" class="line l5"><tspan class="label">Uptime:</tspan> <tspan class="value">24/7 (Coffee Powered ☕)</tspan></text>
+      <text x="0" y="102" class="line l6"><tspan class="label">Shell:</tspan> <tspan class="value">zsh 5.9 | Neovim / VSCode</tspan></text>
+      <text x="0" y="120" class="line l7"><tspan class="label">Role:</tspan> <tspan class="value">Backend Developer &amp; DevOps Engineer</tspan></text>
+      <text x="0" y="138" class="line l8"><tspan class="label">Status:</tspan> <tspan class="value">Building scalable microservices &amp; CI/CD</tspan> <tspan class="cursor" fill="#22c55e">█</tspan></text>
+    </g>
+  </g>
+</svg>

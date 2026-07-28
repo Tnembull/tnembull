@@ -1,12 +1,12 @@
 <!-- TERMINAL HEADER BANNER -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:090d16,100:0f172a&height=180&section=header&text=tnembull@root:~$&fontSize=45&fontAlignY=45&fontColor=22c55e&animation=twinkling&desc=Linux%20Kernel%20%7C%20Backend%20Engineering%20%7C%20DevOps%20Automation&descSize=16&descAlignY=72&descColor=38bdf8" width="100%" alt="Linux Terminal Header" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:090d16,100:0f172a&height=160&section=header&text=Tnembull@root:~$&fontSize=45&fontAlignY=45&fontColor=22c55e&animation=twinkling&desc=Linux%20Kernel%20%7C%20Backend%20Engineering%20%7C%20DevOps%20Automation&descSize=16&descAlignY=72&descColor=38bdf8" width="100%" alt="Linux Terminal Header" />
 </div>
 
 <!-- TYPING ANIMATION TERMINAL STYLE -->
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=22C55E&center=true&vcenter=true&random=false&width=650&height=40&lines=systemctl+status+tnembull.service+-+Active%3A+active+(running);cat+%2Fetc%2Fos-release+-%3E+Linux+SysAdmin+%26+Backend+Dev;docker+compose+up+-d+--build+all-services;kubectl+get+pods+-n+production+-o+wide" alt="Terminal Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=22C55E&center=true&vcenter=true&random=false&width=680&height=45&lines=systemctl+status+tnembull.service+-+Active%3A+active+(running);cat+%2Fetc%2Fos-release+-%3E+Linux+SysAdmin+%26+Backend+Dev;docker+compose+up+-d+--build+all-services;kubectl+get+pods+-n+production+-o+wide" alt="Terminal Typing SVG" />
   </a>
 </div>
 
@@ -15,7 +15,7 @@
   <img src="https://img.shields.io/badge/Kernel-Linux%206.x-22c55e?style=for-the-badge&logo=linux&logoColor=white" />
   <img src="https://img.shields.io/badge/Shell-ZSH%20%2F%20Bash-38bdf8?style=for-the-badge&logo=gnu-bash&logoColor=white" />
   <img src="https://img.shields.io/badge/Status-ACTIVE-f59e0b?style=for-the-badge&logo=prometheus&logoColor=white" />
-  <img src="https://komarev.com/ghpvc/?username=tnembull&label=Uptime%20Views&color=22c55e&style=for-the-badge" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=Tnembull&label=Uptime%20Views&color=22c55e&style=for-the-badge" alt="Profile Views" />
 </div>
 
 <br/>
@@ -24,22 +24,15 @@
 
 ### 🖥️ `$ fastfetch --config sysinfo`
 
-```bash
-               .---.                 tnembull@node-01
-              /     \                ----------------
-             | ()  () |              OS: Arch Linux x86_64 / Debian GNU/Linux
-             \  ==  /                Kernel: 6.8.0-custom-sysadmin
-              `----'                 Uptime: 24/7 (Coffee Powered ☕)
-             /      \                Shell: zsh 5.9 (x86_64-pc-linux-gnu)
-            /        \               Role: Backend Developer & DevOps Engineer
-           /  \    /  \              Location: Indonesia 🇮🇩
-          |    |  |    |             Editor: Neovim / VSCode (Terminal Enthusiast)
-         /    /    \    \            Status: Building scalable microservices
-        (____)      (____)           Motto: "In Linux We Trust, In Root We Command"
-```
+<!-- ANIMATED TERMINAL FASTFETCH SVG -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Tnembull/Tnembull/main/fastfetch-anim.svg" width="100%" alt="Animated Linux Fastfetch Terminal" />
+</div>
+
+<br/>
 
 ```bash
-tnembull@node-01:~$ systemctl status tnembull.service
+Tnembull@node-01:~$ systemctl status tnembull.service
 ● tnembull.service - Backend & DevOps Automation Engine
      Loaded: loaded (/etc/systemd/system/tnembull.service; enabled; vendor preset: enabled)
      Active: active (running) since Tue 2026-07-28 00:00:00 UTC; 999d uptime
@@ -57,10 +50,10 @@ tnembull@node-01:~$ systemctl status tnembull.service
 
 ---
 
-### 📂 `$ tree -L 2 /home/tnembull/skills/`
+### 📂 `$ tree -L 2 /home/Tnembull/skills/`
 
 ```bash
-/home/tnembull/skills/
+/home/Tnembull/skills/
 ├── 01_languages/
 │   ├── go.mod (Gin, Fiber, gRPC)
 │   ├── main.py (FastAPI, Asyncio)
@@ -87,15 +80,7 @@ tnembull@node-01:~$ systemctl status tnembull.service
 ### 🛠️ `$ ls -la /usr/local/bin/tools/`
 
 <div align="center">
-
-| Subsystem | Tools & Technologies |
-| :--- | :--- |
-| **Linux & Shell** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white) ![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white) ![Bash](https://img.shields.io/badge/GNU_Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white) |
-| **Languages** | ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) |
-| **Containers & K8s** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white) ![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white) |
-| **IaC & CI/CD** | ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white) ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white) |
-| **Databases & Server** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white) |
-
+  <a href="#"><img src="https://skillicons.dev/icons?i=linux,ubuntu,debian,bash,go,py,ts,nodejs,express,fastapi,postgres,redis,mongodb,docker,kubernetes,terraform,ansible,aws,nginx,git,githubactions,vscode&perline=11" alt="Tools & Technologies" /></a>
 </div>
 
 <br/>
@@ -105,27 +90,45 @@ tnembull@node-01:~$ systemctl status tnembull.service
 ### 📊 `$ htop --metric=github-stats`
 
 <div align="center">
-  <table border="0">
-    <tr>
-      <td>
-        <img height="185" src="https://github-readme-stats.vercel.app/api?username=tnembull&show_icons=true&theme=matrix&hide_border=true&count_private=true&include_all_commits=true" alt="Terminal Stats" />
-      </td>
-      <td>
-        <img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tnembull&layout=compact&theme=matrix&hide_border=true&langs_count=8" alt="Top Languages" />
-      </td>
-    </tr>
-  </table>
+  <img src="https://github-readme-stats.vercel.app/api?username=Tnembull&show_icons=true&theme=matrix&hide_border=true&count_private=true&include_all_commits=true" height="175" alt="Terminal Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tnembull&layout=compact&theme=matrix&hide_border=true&langs_count=8" height="175" alt="Top Languages" />
 </div>
 
+<br/>
+
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tnembull&theme=matrix&hide_border=true" alt="Streak Stats" />
+  <img src="https://streak-stats.demolab.com?user=Tnembull&theme=matrix&hide_border=true" alt="Streak Stats" />
 </div>
 
 <br/>
 
 <!-- ACTIVITY GRAPH -->
 <div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=tnembull&theme=matrix&hide_border=true&area=true" alt="Activity Graph Matrix" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Tnembull&theme=matrix&hide_border=true&area=true&bg_color=090d16&color=22c55e&line=22c55e&point=38bdf8" alt="Activity Graph Matrix" />
+</div>
+
+<br/>
+
+---
+
+### 🎮 `$ ./play-mini-game.sh`
+
+<div align="center">
+
+| 🟩 **Terminal Tic-Tac-Toe** 🟩 |
+| :---: |
+| Click any cell below to play a move against the Linux Sysadmin Bot! |
+
+| | | |
+| :-: | :-: | :-: |
+| ❌ | ⭕ | 🟩 |
+| 🟩 | ❌ | ⭕ |
+| ⭕ | 🟩 | ❌ |
+
+<br/>
+
+<sub>🎮 Want to play live? Open a challenge issue on [Tnembull's Repo](https://github.com/Tnembull/Tnembull/issues/new) to play Connect-4 or Tic-Tac-Toe!</sub>
+
 </div>
 
 <br/>
@@ -136,9 +139,9 @@ tnembull@node-01:~$ systemctl status tnembull.service
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tnembull/tnembull/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tnembull/tnembull/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/tnembull/tnembull/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tnembull/Tnembull/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Tnembull/Tnembull/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Tnembull/Tnembull/output/github-contribution-grid-snake-dark.svg">
   </picture>
 </div>
 
