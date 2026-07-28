@@ -90,7 +90,7 @@ Tnembull@node-01:~$ systemctl status tnembull.service
 ### 📊 `$ htop --metric=github-stats`
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Tnembull&show_icons=true&theme=matrix&hide_border=true&count_private=true&include_all_commits=true" height="175" alt="Terminal Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Tnembull&show_icons=true&theme=matrix&hide_border=true" height="175" alt="Terminal Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tnembull&layout=compact&theme=matrix&hide_border=true&langs_count=8" height="175" alt="Top Languages" />
 </div>
 
@@ -111,25 +111,24 @@ Tnembull@node-01:~$ systemctl status tnembull.service
 
 ---
 
-### 🎮 `$ ./play-mini-game.sh`
+### 🎮 `$ ./play-tictactoe.sh`
 
+<!-- TTT_BOARD_START -->
 <div align="center">
 
-| 🟩 **Terminal Tic-Tac-Toe** 🟩 |
-| :---: |
-| Click any cell below to play a move against the Linux Sysadmin Bot! |
+Your turn! Click an available 🟩 cell to make your move against Linux Bot:
 
 | | | |
 | :-: | :-: | :-: |
-| ❌ | ⭕ | 🟩 |
-| 🟩 | ❌ | ⭕ |
-| ⭕ | 🟩 | ❌ |
+| [🟩](https://github.com/Tnembull/Tnembull/issues/new?title=TTT:+move+0+0&body=Click+Submit+New+Issue+to+confirm+this+move!) | [🟩](https://github.com/Tnembull/Tnembull/issues/new?title=TTT:+move+0+1&body=Click+Submit+New+Issue+to+confirm+this+move!) | [🟩](https://github.com/Tnembull/Tnembull/issues/new?title=TTT:+move+0+2&body=Click+Submit+New+Issue+to+confirm+this+move!) |
+| [🟩](https://github.com/Tnembull/Tnembull/issues/new?title=TTT:+move+1+0&body=Click+Submit+New+Issue+to+confirm+this+move!) | [🟩](https://github.com/Tnembull/Tnembull/issues/new?title=TTT:+move+1+1&body=Click+Submit+New+Issue+to+confirm+this+move!) | [🟩](https://github.com/Tnembull/Tnembull/issues/new?title=TTT:+move+1+2&body=Click+Submit+New+Issue+to+confirm+this+move!) |
+| [🟩](https://github.com/Tnembull/Tnembull/issues/new?title=TTT:+move+2+0&body=Click+Submit+New+Issue+to+confirm+this+move!) | [🟩](https://github.com/Tnembull/Tnembull/issues/new?title=TTT:+move+2+1&body=Click+Submit+New+Issue+to+confirm+this+move!) | [🟩](https://github.com/Tnembull/Tnembull/issues/new?title=TTT:+move+2+2&body=Click+Submit+New+Issue+to+confirm+this+move!) |
 
 <br/>
-
-<sub>🎮 Want to play live? Open a challenge issue on [Tnembull's Repo](https://github.com/Tnembull/Tnembull/issues/new) to play Connect-4 or Tic-Tac-Toe!</sub>
+[🔄 **Reset Game**](https://github.com/Tnembull/Tnembull/issues/new?title=TTT:+reset&body=Click+Submit+New+Issue+to+Reset+Game!)
 
 </div>
+<!-- TTT_BOARD_END -->
 
 <br/>
 
