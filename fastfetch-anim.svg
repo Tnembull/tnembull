@@ -76,11 +76,11 @@
       <text x="0" y="16" class="line l1 accent">Tnembull@node-01</text>
       <text x="0" y="30" class="line l2" fill="#334155">-----------------------------------------------</text>
       <text x="0" y="48" class="line l3"><tspan class="label">OS:</tspan> <tspan class="value">Ubuntu 24.04 LTS / Debian GNU/Linux</tspan></text>
-      <text x="0" y="66" class="line l4"><tspan class="label">Kernel:</tspan> <tspan class="value">Linux 6.8.0-generic (Hardened)</tspan></text>
+      <text x="0" y="66" class="line l4"><tspan class="label">Role:</tspan> <tspan class="value">Backend Developer &amp; DevOps Engineer</tspan></text>
       <text x="0" y="84" class="line l5"><tspan class="label">Uptime:</tspan> <tspan class="value">99.99% Availability &amp; SLO Target</tspan></text>
-      <text x="0" y="102" class="line l6"><tspan class="label">Infrastructure:</tspan> <tspan class="value">Terraform | Ansible | Cloudflare Edge</tspan></text>
+      <text x="0" y="102" class="line l6"><tspan class="label">DevOps &amp; IaC:</tspan> <tspan class="value">Terraform | Ansible | Cloudflare Edge</tspan></text>
       <text x="0" y="120" class="line l7"><tspan class="label">Observability:</tspan> <tspan class="value">Prometheus | Alertmanager | Grafana</tspan></text>
-      <text x="0" y="138" class="line l8"><tspan class="label">Security:</tspan> <tspan class="value">Shift-Left DevSecOps | Trivy | Gitleaks</tspan> <tspan class="cursor" fill="#22c55e">█</tspan></text>
+      <text x="0" y="138" class="line l8"><tspan class="label">Status:</tspan> <tspan class="value">Building high-reliability systems &amp; CI/CD</tspan> <tspan class="cursor" fill="#22c55e">█</tspan></text>
     </g>
   </g>
 </svg>
