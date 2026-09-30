@@ -1,21 +1,21 @@
 <!-- TERMINAL HEADER BANNER -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:090d16,100:0f172a&height=160&section=header&text=Tnembull@root:~$&fontSize=45&fontAlignY=45&fontColor=22c55e&animation=twinkling&desc=Linux%20Kernel%20%7C%20Backend%20Engineering%20%7C%20DevOps%20Automation&descSize=16&descAlignY=72&descColor=38bdf8" width="100%" alt="Linux Terminal Header" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:090d16,100:0f172a&height=160&section=header&text=Tnembull@root:~$&fontSize=45&fontAlignY=45&fontColor=22c55e&animation=twinkling&desc=Cloud%20Infrastructure%20%7C%20Site%20Reliability%20%7C%20DevSecOps%20Automation&descSize=16&descAlignY=72&descColor=38bdf8" width="100%" alt="Linux Terminal Header" />
 </div>
 
 <!-- TYPING ANIMATION TERMINAL STYLE -->
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=22C55E&center=true&vcenter=true&random=false&width=680&height=45&lines=systemctl+status+tnembull.service+-+Active%3A+active+(running);cat+%2Fetc%2Fos-release+-%3E+Linux+SysAdmin+%26+Backend+Dev;docker+compose+up+-d+--build+all-services;kubectl+get+pods+-n+production+-o+wide" alt="Terminal Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=22C55E&center=true&vcenter=true&random=false&width=750&height=45&lines=terraform+plan+-out%3Dtfplan+--parallelism%3D10;ansible-playbook+-i+hosts.ini+site.yml+--diff;promtool+check+rules+alert.rules.yml;trivy+image+--severity+CRITICAL+production%3Alatest;gitleaks+detect+--verbose+--redact" alt="Terminal Typing SVG" />
   </a>
 </div>
 
 <!-- QUICK STATUS BADGES -->
 <div align="center">
-  <img src="https://img.shields.io/badge/Kernel-Linux%206.x-22c55e?style=for-the-badge&logo=linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Shell-ZSH%20%2F%20Bash-38bdf8?style=for-the-badge&logo=gnu-bash&logoColor=white" />
-  <img src="https://img.shields.io/badge/Status-ACTIVE-f59e0b?style=for-the-badge&logo=prometheus&logoColor=white" />
-  <img src="https://komarev.com/ghpvc/?username=Tnembull&label=Uptime%20Views&color=22c55e&style=for-the-badge" alt="Profile Views" />
+  <img src="https://img.shields.io/badge/Platform-Ubuntu%20%2F%20Linux%206.x-22c55e?style=for-the-badge&logo=ubuntu&logoColor=white" />
+  <img src="https://img.shields.io/badge/IaC-Terraform%20%26%20Ansible-38bdf8?style=for-the-badge&logo=terraform&logoColor=white" />
+  <img src="https://img.shields.io/badge/SRE-Prometheus%20%26%20Grafana-f59e0b?style=for-the-badge&logo=prometheus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Security-Shift--Left%20DevSecOps-ef4444?style=for-the-badge&logo=shield&logoColor=white" />
 </div>
 
 <br/>
@@ -32,18 +32,18 @@
 <br/>
 
 ```bash
-Tnembull@node-01:~$ systemctl status tnembull.service
-● tnembull.service - Backend & DevOps Automation Engine
-     Loaded: loaded (/etc/systemd/system/tnembull.service; enabled; vendor preset: enabled)
+Tnembull@node-01:~$ systemctl status devops-engine.service
+● devops-engine.service - Production Telemetry & Site Reliability Daemon
+     Loaded: loaded (/etc/systemd/system/devops-engine.service; enabled; vendor preset: enabled)
      Active: active (running) since Tue 2026-07-28 00:00:00 UTC; 999d uptime
-   Main PID: 1337 (go-server)
+   Main PID: 2026 (sre-controller)
       Tasks: 42 (limit: 4915)
-     Memory: 512.0M
-        CPU: 0.02s
-     CGroup: /system.slice/tnembull.service
-             ├─1337 /usr/local/bin/backend-api-gateway
-             ├─1338 /usr/bin/docker-daemon
-             └─1339 /usr/local/bin/k8s-controller
+     Memory: 256.0M
+        CPU: 0.05s
+     CGroup: /system.slice/devops-engine.service
+             ├─2026 /usr/local/bin/prometheus-collector
+             ├─2027 /usr/local/bin/alertmanager-telegram-webhook
+             └─2028 /usr/local/bin/dr-integrity-worker
 ```
 
 <br/>
