@@ -87,6 +87,53 @@ Tnembull@node-01:~$ systemctl status tnembull.service
 
 ---
 
+### 🚀 `$ cat /proc/sys/devops/featured_projects.json`
+
+```json
+[
+  {
+    "repo": "Tnembull/ansible-vps-hardening",
+    "domain": "Configuration Management",
+    "stack": ["Ansible", "UFW", "SSH Hardening", "Fail2ban", "GitHub Actions"],
+    "summary": "Automated declarative Linux VPS security baseline and package provisioning"
+  },
+  {
+    "repo": "Tnembull/terraform-cloudflare-iac",
+    "domain": "Infrastructure as Code",
+    "stack": ["Terraform", "Cloudflare", "Edge DNS", "Strict SSL/TLS 1.3"],
+    "summary": "Declarative edge routing, dynamic subdomains, and zero-drift security policies"
+  },
+  {
+    "repo": "Tnembull/sre-observability-stack",
+    "domain": "Telemetry & Observability",
+    "stack": ["Prometheus", "Alertmanager", "Grafana", "Telegram Bot"],
+    "summary": "Production metric pipelines, PromQL alerting rules, and Dashboards-as-Code"
+  },
+  {
+    "repo": "Tnembull/automated-dr-backup",
+    "domain": "Disaster Recovery & Reliability",
+    "stack": ["Bash", "GPG AES-256", "SQLite", "Cloud Storage Sync"],
+    "summary": "Zero-downtime database snapshots, immutable checksums, and automated DR drills"
+  },
+  {
+    "repo": "Tnembull/devsecops-pipeline",
+    "domain": "Shift-Left DevSecOps",
+    "stack": ["Gitleaks", "Aqua Trivy", "Hadolint", "Docker Multi-stage"],
+    "summary": "Continuous secret scanning, static Dockerfile linting, and container CVE auditing"
+  },
+  {
+    "repo": "Tnembull/npm-supply-chain-scanner",
+    "domain": "Cloud & Host Security Forensics",
+    "stack": ["Python", "Linux Persistence", "PM2 Auditing", "SARIF"],
+    "summary": "Defensive forensic CLI triage tool detecting malicious scripts and backdoor persistence"
+  }
+]
+```
+
+<br/>
+
+---
+
 ### 📊 `$ htop --metric=github-stats`
 
 <!-- TROPHIES & SUMMARY CARDS -->
@@ -128,14 +175,14 @@ Tnembull@node-01:~$ systemctl status tnembull.service
 ### 📡 `$ netstat -tapn | grep LISTEN`
 
 <div align="center">
-  <a href="https://linkedin.com/in/tnembull" target="_blank">
+  <a href="https://linkedin.com/in/muhammadnurashiddiqi" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:your.email@example.com">
+  <a href="mailto:muhammadnurashiddiqi@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://discord.com" target="_blank">
-    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+  <a href="https://muhammadnurashiddiqi.my.id" target="_blank">
+    <img src="https://img.shields.io/badge/Website-22c55e?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" />
   </a>
 </div>
 
