@@ -54,23 +54,23 @@ Tnembull@node-01:~$ systemctl status tnembull.service
 
 ```bash
 /home/Tnembull/skills/
-├── 01_languages/
-│   ├── go.mod (Gin, Fiber, gRPC)
-│   ├── main.py (FastAPI, Asyncio)
-│   ├── index.ts (Node.js, Express)
-│   └── script.sh (Bash & Zsh Automation)
-├── 02_databases/
-│   ├── postgresql/ (PostGIS, Optimization, Indexing)
-│   ├── redis/ (Caching, Pub/Sub, Queues)
-│   └── mongodb/ (NoSQL, Aggregation)
-├── 03_devops_&_cloud/
-│   ├── docker/ (Multi-stage builds, Containerization)
-│   ├── kubernetes/ (Helm, Ingress, Pods, Deployments)
-│   ├── terraform/ (Infrastructure as Code)
-│   └── github-actions/ (Automated CI/CD Pipelines)
-└── 04_infrastructure/
-    ├── nginx.conf (Reverse Proxy, Load Balancing, SSL)
-    └── linux-admin/ (Systemd, Htop, Firewall, Networking)
+├── 01_infrastructure_as_code/
+│   ├── terraform/ (HCL, Cloudflare Edge, DNS, Strict TLS 1.3)
+│   └── ansible/ (Idempotent Playbooks, Linux VPS Hardening)
+├── 02_observability_&_reliability/
+│   ├── prometheus/ (PromQL, Metric Scraping, TSDB Storage)
+│   ├── alertmanager/ (Telegram Alerts, Severity Routing, Deduplication)
+│   ├── grafana/ (Dashboards-as-Code, Production Red Method)
+│   └── disaster_recovery/ (AES-256 GPG, Zero-Lock Snapshots, DR Drills)
+├── 03_devsecops_&_containers/
+│   ├── docker/ (Multi-stage Minimal Alpine Builds, Non-Root)
+│   ├── security_scanning/ (Aqua Trivy, Gitleaks, Hadolint, NPM Audit)
+│   └── github_actions/ (Automated CI/CD Quality Gates & Linters)
+└── 04_backend_&_systems/
+    ├── python/ (Forensic CLI Scanners, Automation, Asyncio)
+    ├── node_typescript/ (Express, Helmet Hardening, APIs)
+    ├── golang/ (Microservices, Bridging APIs, CLI Utilities)
+    └── linux_admin/ (Systemd, UFW, Network Tables, Reverse Proxy)
 ```
 
 <br/>
