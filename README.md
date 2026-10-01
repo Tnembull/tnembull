@@ -92,6 +92,12 @@ Tnembull@node-01:~$ systemctl status tnembull.service
 ```json
 [
   {
+    "repo": "Tnembull/go-core-backend",
+    "domain": "Core Backend Architecture",
+    "stack": ["Go (Golang)", "Clean Architecture", "TOTP 2FA", "Granular RBAC", "Prometheus", "Postman/Apidog"],
+    "summary": "Production microservice core with zero-trust auth, TOTP 2FA, token rotation, and 35 automated E2E tests"
+  },
+  {
     "repo": "Tnembull/ansible-vps-hardening",
     "domain": "Configuration Management",
     "stack": ["Ansible", "UFW", "SSH Hardening", "Fail2ban", "GitHub Actions"],
