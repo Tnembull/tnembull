@@ -1,6 +1,6 @@
 <!-- TERMINAL HEADER BANNER -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:090d16,100:0f172a&height=160&section=header&text=Tnembull@root:~$&fontSize=45&fontAlignY=45&fontColor=22c55e&animation=twinkling&desc=Backend%20Engineering%20%7C%20DevOps%20Automation%20%7C%20Cloud%20Infrastructure&descSize=16&descAlignY=72&descColor=38bdf8" width="100%" alt="Linux Terminal Header" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:090d16,100:0f172a&height=160&section=header&text=Tnembull@root:~$&fontSize=45&fontAlignY=45&fontColor=22c55e&animation=twinkling&desc=DevOps%20Engineer%20%7C%20Cloud%20Infrastructure%20%7C%20Automation%20%26%20Backend%20Development&descSize=16&descAlignY=72&descColor=38bdf8" width="100%" alt="Linux Terminal Header" />
 </div>
 
 <!-- TYPING ANIMATION TERMINAL STYLE -->
@@ -33,7 +33,7 @@
 
 ```bash
 Tnembull@node-01:~$ systemctl status tnembull.service
-● tnembull.service - Backend Engineering & DevOps Automation Engine
+● tnembull.service - DevOps Engineer | Cloud Infrastructure | Automation & Backend Development
      Loaded: loaded (/etc/systemd/system/tnembull.service; enabled; vendor preset: enabled)
      Active: active (running) since Tue 2026-07-28 00:00:00 UTC; 999d uptime
    Main PID: 2026 (app-cluster)
