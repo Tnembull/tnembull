@@ -1,6 +1,6 @@
 <!-- TERMINAL HEADER BANNER -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Tnembull/Tnembull/main/header.svg" width="100%" alt="Linux Terminal Header" />
+  <img src="./header.svg" width="100%" alt="Linux Terminal Header" />
 </div>
 
 <!-- TYPING ANIMATION TERMINAL STYLE -->
@@ -192,5 +192,5 @@ Tnembull@node-01:~$ systemctl status tnembull.service
 <br/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Tnembull/Tnembull/main/footer.svg" width="100%" alt="Footer Terminal" />
+  <img src="./footer.svg" width="100%" alt="Footer Terminal" />
 </div>
