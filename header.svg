@@ -1,26 +1,37 @@
-
-      <svg
-        width="854"
-        height="160"
-        viewBox="0 0 854 160"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <style>
-      .text {   font-size: 45px;   font-weight: 700;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } .desc {   font-size: 16px;   font-weight: 500;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } 
-      .text, .desc {   animation: twinkling 4s ease-in-out infinite;  } @keyframes twinkling {   40% {     opacity: 1;   }   50% {     opacity: 0.5;   }   60% {     opacity: 1;   }   70% {     opacity: 0.5;   }   80% {     opacity: 1;   }  } 
-    </style>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 854 160"
-        >
-          <defs>
-              <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="0%" stop-color="#090d16"/><stop offset="100%" stop-color="#0f172a"/>
-              </linearGradient>
-            </defs>
-          <path fill="url(#linear)"  fill-opacity="1" d="m 0 0 l 0 160 l 854 0 l 0 -160 z"></path>
-        </svg>
-         <text text-anchor="middle" dominant-baseline="middle" x="50%" y="45%" class="text" style="fill:#22c55e;" stroke="#none" stroke-width="1" >Tnembull@root:~$</text>
-        <text text-anchor="middle" dominant-baseline="middle" x="50%" y="72%" class="desc" style="fill:#22c55e;">DevOps Engineer | Cloud Infrastructure | Automation & Backend Development</text>
-      </svg>
-    
+<svg width="854" height="160" viewBox="0 0 854 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="header-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .terminal-title {
+      font-family: 'Fira Code', 'Courier New', -apple-system, monospace;
+      font-size: 38px;
+      font-weight: 800;
+      fill: #22c55e;
+      letter-spacing: -0.5px;
+    }
+    .terminal-subtitle {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      fill: #38bdf8;
+      letter-spacing: 0.5px;
+    }
+    .prompt-cursor {
+      animation: blink 1s infinite;
+      fill: #22c55e;
+    }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+  </style>
+  <rect width="854" height="160" rx="10" fill="url(#header-grad)" stroke="#1e293b" stroke-width="2"/>
+  <circle cx="28" cy="24" r="6" fill="#ef4444"/>
+  <circle cx="48" cy="24" r="6" fill="#f59e0b"/>
+  <circle cx="68" cy="24" r="6" fill="#10b981"/>
+  <text x="427" y="27" text-anchor="middle" font-family="'Fira Code', monospace" font-size="12" fill="#64748b" font-weight="600">Tnembull@root:~ (bash)</text>
+  <line x1="0" y1="42" x2="854" y2="42" stroke="#1e293b" stroke-width="1.5"/>
+  <text x="427" y="85" text-anchor="middle" dominant-baseline="middle" class="terminal-title">Tnembull@root:~$<tspan class="prompt-cursor"> _</tspan></text>
+  <text x="427" y="122" text-anchor="middle" dominant-baseline="middle" class="terminal-subtitle">DevOps Engineer | Cloud Infrastructure | Automation &amp; Backend Development</text>
+</svg>
