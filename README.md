@@ -1,6 +1,6 @@
 <!-- TERMINAL HEADER BANNER -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:090d16,100:0f172a&height=160&section=header&text=Tnembull@root:~$&fontSize=45&fontAlignY=45&fontColor=22c55e&animation=twinkling&desc=DevOps%20Engineer%20%7C%20Cloud%20Infrastructure%20%7C%20Automation%20%26%20Backend%20Development&descSize=16&descAlignY=72&descColor=38bdf8" width="100%" alt="Linux Terminal Header" />
+  <img src="https://raw.githubusercontent.com/Tnembull/Tnembull/main/header.svg" width="100%" alt="Linux Terminal Header" />
 </div>
 
 <!-- TYPING ANIMATION TERMINAL STYLE -->
@@ -155,10 +155,7 @@ Tnembull@node-01:~$ systemctl status tnembull.service
 
 <br/>
 
-<!-- ACTIVITY GRAPH -->
-<div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Tnembull&theme=matrix&hide_border=true&area=true&bg_color=090d16&color=22c55e&line=22c55e&point=38bdf8" alt="Activity Graph Matrix" />
-</div>
+
 
 <br/>
 
@@ -195,5 +192,5 @@ Tnembull@node-01:~$ systemctl status tnembull.service
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,100:090d16&height=80&section=footer&text=EOF&fontSize=20&fontColor=22c55e" width="100%" alt="Footer Terminal" />
+  <img src="https://raw.githubusercontent.com/Tnembull/Tnembull/main/footer.svg" width="100%" alt="Footer Terminal" />
 </div>
